@@ -14,6 +14,10 @@
 		264FC11C28CE121C008D322F /* HWR_ILETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC11B28CE121C008D322F /* HWR_ILETests.swift */; };
 		264FC12628CE121C008D322F /* HWR_ILEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC12528CE121C008D322F /* HWR_ILEUITests.swift */; };
 		264FC12828CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC12728CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift */; };
+		264FC13628CE1324008D322F /* Markdown in Frameworks */ = {isa = PBXBuildFile; productRef = 264FC13528CE1324008D322F /* Markdown */; };
+		264FC13828CE1B9C008D322F /* MarkdownRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC13728CE1B9C008D322F /* MarkdownRenderer.swift */; };
+		26F5705428CE7A5800A5BB0A /* Test.md in Resources */ = {isa = PBXBuildFile; fileRef = 26F5705328CE7A5800A5BB0A /* Test.md */; };
+		26F5705628CE81D400A5BB0A /* MarkdownImageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F5705528CE81D400A5BB0A /* MarkdownImageRenderer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,9 @@
 		264FC12128CE121C008D322F /* HWR ILEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWR ILEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		264FC12528CE121C008D322F /* HWR_ILEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWR_ILEUITests.swift; sourceTree = "<group>"; };
 		264FC12728CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWR_ILEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		264FC13728CE1B9C008D322F /* MarkdownRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownRenderer.swift; sourceTree = "<group>"; };
+		26F5705328CE7A5800A5BB0A /* Test.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Test.md; sourceTree = "<group>"; };
+		26F5705528CE81D400A5BB0A /* MarkdownImageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownImageRenderer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264FC13628CE1324008D322F /* Markdown in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +83,7 @@
 		264FC0FD28CE121A008D322F = {
 			isa = PBXGroup;
 			children = (
+				26F5705328CE7A5800A5BB0A /* Test.md */,
 				264FC10828CE121A008D322F /* HWR ILE */,
 				264FC11A28CE121C008D322F /* HWR ILETests */,
 				264FC12428CE121C008D322F /* HWR ILEUITests */,
@@ -95,6 +104,7 @@
 		264FC10828CE121A008D322F /* HWR ILE */ = {
 			isa = PBXGroup;
 			children = (
+				264FC13928CE1F73008D322F /* Markdown */,
 				264FC10928CE121A008D322F /* HWR_ILEApp.swift */,
 				264FC10B28CE121A008D322F /* ContentView.swift */,
 				264FC10D28CE121C008D322F /* Assets.xcassets */,
@@ -129,6 +139,15 @@
 			path = "HWR ILEUITests";
 			sourceTree = "<group>";
 		};
+		264FC13928CE1F73008D322F /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				264FC13728CE1B9C008D322F /* MarkdownRenderer.swift */,
+				26F5705528CE81D400A5BB0A /* MarkdownImageRenderer.swift */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +164,9 @@
 			dependencies = (
 			);
 			name = "HWR ILE";
+			packageProductDependencies = (
+				264FC13528CE1324008D322F /* Markdown */,
+			);
 			productName = "HWR ILE";
 			productReference = 264FC10628CE121A008D322F /* HWR ILE.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +239,9 @@
 				Base,
 			);
 			mainGroup = 264FC0FD28CE121A008D322F;
+			packageReferences = (
+				264FC13428CE1324008D322F /* XCRemoteSwiftPackageReference "swift-markdown" */,
+			);
 			productRefGroup = 264FC10728CE121A008D322F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +260,7 @@
 			files = (
 				264FC11128CE121C008D322F /* Preview Assets.xcassets in Resources */,
 				264FC10E28CE121C008D322F /* Assets.xcassets in Resources */,
+				26F5705428CE7A5800A5BB0A /* Test.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +287,8 @@
 			files = (
 				264FC10C28CE121A008D322F /* ContentView.swift in Sources */,
 				264FC10A28CE121A008D322F /* HWR_ILEApp.swift in Sources */,
+				264FC13828CE1B9C008D322F /* MarkdownRenderer.swift in Sources */,
+				26F5705628CE81D400A5BB0A /* MarkdownImageRenderer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -576,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		264FC13428CE1324008D322F /* XCRemoteSwiftPackageReference "swift-markdown" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-markdown";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		264FC13528CE1324008D322F /* Markdown */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 264FC13428CE1324008D322F /* XCRemoteSwiftPackageReference "swift-markdown" */;
+			productName = Markdown;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 264FC0FE28CE121A008D322F /* Project object */;
 }
