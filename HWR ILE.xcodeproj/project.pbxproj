@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		264FC10A28CE121A008D322F /* HWR_ILEApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC10928CE121A008D322F /* HWR_ILEApp.swift */; };
+		264FC10C28CE121A008D322F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC10B28CE121A008D322F /* ContentView.swift */; };
+		264FC10E28CE121C008D322F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264FC10D28CE121C008D322F /* Assets.xcassets */; };
+		264FC11128CE121C008D322F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 264FC11028CE121C008D322F /* Preview Assets.xcassets */; };
+		264FC11C28CE121C008D322F /* HWR_ILETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC11B28CE121C008D322F /* HWR_ILETests.swift */; };
+		264FC12628CE121C008D322F /* HWR_ILEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC12528CE121C008D322F /* HWR_ILEUITests.swift */; };
+		264FC12828CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 264FC12728CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		264FC11828CE121C008D322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264FC0FE28CE121A008D322F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264FC10528CE121A008D322F;
+			remoteInfo = "HWR ILE";
+		};
+		264FC12228CE121C008D322F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 264FC0FE28CE121A008D322F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 264FC10528CE121A008D322F;
+			remoteInfo = "HWR ILE";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		264FC10628CE121A008D322F /* HWR ILE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HWR ILE.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264FC10928CE121A008D322F /* HWR_ILEApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWR_ILEApp.swift; sourceTree = "<group>"; };
+		264FC10B28CE121A008D322F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		264FC10D28CE121C008D322F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		264FC11028CE121C008D322F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		264FC11228CE121C008D322F /* HWR_ILE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HWR_ILE.entitlements; sourceTree = "<group>"; };
+		264FC11728CE121C008D322F /* HWR ILETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWR ILETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264FC11B28CE121C008D322F /* HWR_ILETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWR_ILETests.swift; sourceTree = "<group>"; };
+		264FC12128CE121C008D322F /* HWR ILEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HWR ILEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		264FC12528CE121C008D322F /* HWR_ILEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWR_ILEUITests.swift; sourceTree = "<group>"; };
+		264FC12728CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HWR_ILEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		264FC10328CE121A008D322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FC11428CE121C008D322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FC11E28CE121C008D322F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		264FC0FD28CE121A008D322F = {
+			isa = PBXGroup;
+			children = (
+				264FC10828CE121A008D322F /* HWR ILE */,
+				264FC11A28CE121C008D322F /* HWR ILETests */,
+				264FC12428CE121C008D322F /* HWR ILEUITests */,
+				264FC10728CE121A008D322F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		264FC10728CE121A008D322F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				264FC10628CE121A008D322F /* HWR ILE.app */,
+				264FC11728CE121C008D322F /* HWR ILETests.xctest */,
+				264FC12128CE121C008D322F /* HWR ILEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		264FC10828CE121A008D322F /* HWR ILE */ = {
+			isa = PBXGroup;
+			children = (
+				264FC10928CE121A008D322F /* HWR_ILEApp.swift */,
+				264FC10B28CE121A008D322F /* ContentView.swift */,
+				264FC10D28CE121C008D322F /* Assets.xcassets */,
+				264FC11228CE121C008D322F /* HWR_ILE.entitlements */,
+				264FC10F28CE121C008D322F /* Preview Content */,
+			);
+			path = "HWR ILE";
+			sourceTree = "<group>";
+		};
+		264FC10F28CE121C008D322F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				264FC11028CE121C008D322F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		264FC11A28CE121C008D322F /* HWR ILETests */ = {
+			isa = PBXGroup;
+			children = (
+				264FC11B28CE121C008D322F /* HWR_ILETests.swift */,
+			);
+			path = "HWR ILETests";
+			sourceTree = "<group>";
+		};
+		264FC12428CE121C008D322F /* HWR ILEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				264FC12528CE121C008D322F /* HWR_ILEUITests.swift */,
+				264FC12728CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift */,
+			);
+			path = "HWR ILEUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		264FC10528CE121A008D322F /* HWR ILE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264FC12B28CE121C008D322F /* Build configuration list for PBXNativeTarget "HWR ILE" */;
+			buildPhases = (
+				264FC10228CE121A008D322F /* Sources */,
+				264FC10328CE121A008D322F /* Frameworks */,
+				264FC10428CE121A008D322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HWR ILE";
+			productName = "HWR ILE";
+			productReference = 264FC10628CE121A008D322F /* HWR ILE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		264FC11628CE121C008D322F /* HWR ILETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264FC12E28CE121C008D322F /* Build configuration list for PBXNativeTarget "HWR ILETests" */;
+			buildPhases = (
+				264FC11328CE121C008D322F /* Sources */,
+				264FC11428CE121C008D322F /* Frameworks */,
+				264FC11528CE121C008D322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264FC11928CE121C008D322F /* PBXTargetDependency */,
+			);
+			name = "HWR ILETests";
+			productName = "HWR ILETests";
+			productReference = 264FC11728CE121C008D322F /* HWR ILETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		264FC12028CE121C008D322F /* HWR ILEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 264FC13128CE121C008D322F /* Build configuration list for PBXNativeTarget "HWR ILEUITests" */;
+			buildPhases = (
+				264FC11D28CE121C008D322F /* Sources */,
+				264FC11E28CE121C008D322F /* Frameworks */,
+				264FC11F28CE121C008D322F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				264FC12328CE121C008D322F /* PBXTargetDependency */,
+			);
+			name = "HWR ILEUITests";
+			productName = "HWR ILEUITests";
+			productReference = 264FC12128CE121C008D322F /* HWR ILEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		264FC0FE28CE121A008D322F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					264FC10528CE121A008D322F = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					264FC11628CE121C008D322F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 264FC10528CE121A008D322F;
+					};
+					264FC12028CE121C008D322F = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 264FC10528CE121A008D322F;
+					};
+				};
+			};
+			buildConfigurationList = 264FC10128CE121A008D322F /* Build configuration list for PBXProject "HWR ILE" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 264FC0FD28CE121A008D322F;
+			productRefGroup = 264FC10728CE121A008D322F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				264FC10528CE121A008D322F /* HWR ILE */,
+				264FC11628CE121C008D322F /* HWR ILETests */,
+				264FC12028CE121C008D322F /* HWR ILEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		264FC10428CE121A008D322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264FC11128CE121C008D322F /* Preview Assets.xcassets in Resources */,
+				264FC10E28CE121C008D322F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FC11528CE121C008D322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FC11F28CE121C008D322F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		264FC10228CE121A008D322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264FC10C28CE121A008D322F /* ContentView.swift in Sources */,
+				264FC10A28CE121A008D322F /* HWR_ILEApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FC11328CE121C008D322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264FC11C28CE121C008D322F /* HWR_ILETests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		264FC11D28CE121C008D322F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264FC12628CE121C008D322F /* HWR_ILEUITests.swift in Sources */,
+				264FC12828CE121C008D322F /* HWR_ILEUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		264FC11928CE121C008D322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264FC10528CE121A008D322F /* HWR ILE */;
+			targetProxy = 264FC11828CE121C008D322F /* PBXContainerItemProxy */;
+		};
+		264FC12328CE121C008D322F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 264FC10528CE121A008D322F /* HWR ILE */;
+			targetProxy = 264FC12228CE121C008D322F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		264FC12928CE121C008D322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		264FC12A28CE121C008D322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		264FC12C28CE121C008D322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HWR ILE/HWR_ILE.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HWR ILE/Preview Content\"";
+				DEVELOPMENT_TEAM = DD4TW256CG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahisweird.HWR-ILE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		264FC12D28CE121C008D322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "HWR ILE/HWR_ILE.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HWR ILE/Preview Content\"";
+				DEVELOPMENT_TEAM = DD4TW256CG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahisweird.HWR-ILE";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		264FC12F28CE121C008D322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD4TW256CG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahisweird.HWR-ILETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWR ILE.app/Contents/MacOS/HWR ILE";
+			};
+			name = Debug;
+		};
+		264FC13028CE121C008D322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD4TW256CG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahisweird.HWR-ILETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HWR ILE.app/Contents/MacOS/HWR ILE";
+			};
+			name = Release;
+		};
+		264FC13228CE121C008D322F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD4TW256CG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahisweird.HWR-ILEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HWR ILE";
+			};
+			name = Debug;
+		};
+		264FC13328CE121C008D322F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DD4TW256CG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sarahisweird.HWR-ILEUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "HWR ILE";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		264FC10128CE121A008D322F /* Build configuration list for PBXProject "HWR ILE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FC12928CE121C008D322F /* Debug */,
+				264FC12A28CE121C008D322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264FC12B28CE121C008D322F /* Build configuration list for PBXNativeTarget "HWR ILE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FC12C28CE121C008D322F /* Debug */,
+				264FC12D28CE121C008D322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264FC12E28CE121C008D322F /* Build configuration list for PBXNativeTarget "HWR ILETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FC12F28CE121C008D322F /* Debug */,
+				264FC13028CE121C008D322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		264FC13128CE121C008D322F /* Build configuration list for PBXNativeTarget "HWR ILEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				264FC13228CE121C008D322F /* Debug */,
+				264FC13328CE121C008D322F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 264FC0FE28CE121A008D322F /* Project object */;
+}
