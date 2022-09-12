@@ -66,13 +66,7 @@ struct MarkdownImageRenderer: View {
             return AnyView(SwiftUI.Text("Couldn't load image."))
         default:
             if let image = NSImage(data: loader.data) {
-                let scaleFactor = self.availableWidth / image.size.width
-                
-                DispatchQueue.main.async {
-                    self.height = image.size.height * scaleFactor
-                }
-                
-                return AnyView(SwiftUI.Image(nsImage: image).scaleEffect(scaleFactor))
+                return AnyView(SwiftUI.Image(nsImage: image).resizable())
             } else {
                 return AnyView(SwiftUI.Text("Couldn't load image."))
             }
@@ -80,15 +74,7 @@ struct MarkdownImageRenderer: View {
     }
     
     var body: some View {
-        GeometryReader { geometry in
-            AsyncImage(url: URL(string: image.source ?? "")) { image in
-                image.resizable()
-                    .scaledToFill()
-                    .frame(width: geometry.size.width)
-            } placeholder: {
-                ProgressView()
-            }
-        }
-        .frame(maxHeight: .infinity)
+        getView()
+            .aspectRatio(contentMode: .fill)
     }
 }

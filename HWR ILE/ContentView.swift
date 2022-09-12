@@ -2,43 +2,30 @@
 //  ContentView.swift
 //  HWR ILE
 //
-//  Created by Sarah Klocke on 11.09.22.
+//  Created by Sarah Klocke on 12.09.22.
 //
 
 import SwiftUI
-import Markdown
 
 struct ContentView: View {
-    @State var text = ""
-    @State var document = Document(parsing: "")
-    @State var debug = ""
-    
     var body: some View {
-        HStack {
-            TextEditor(text: $text)
-                .frame(width: 400, height: 600)
-                .font(.body.monospaced())
-                .onChange(of: text) { newValue in
-                    document = Document(parsing: text)
-                    debug = document.debugDescription()
+        NavigationView {
+            List {
+                NavigationLink {
+                    DocumentsView()
+                } label: {
+                    Label("Edit", systemImage: "pencil")
                 }
-            ScrollViewReader { reader in
-                ScrollView(.vertical, showsIndicators: true) {
-                    MarkdownRenderer(element: document)
-                        .frame(maxWidth: .infinity)
-                        .id("#root")
+                
+                NavigationLink {
+                    DocumentsPresentationNavigationView()
+                } label: {
+                    Label("Review", systemImage: "rectangle.3.group.bubble.left.fill")
                 }
             }
-            .frame(width: 400, height: 600)
-            TextEditor(text: $debug)
-                .frame(width: 400, height: 600)
         }
-        .onAppear {
-            let path = Bundle.main.path(forResource: "Test", ofType: "md")!
-            let url = URL(fileURLWithPath: path)
-            
-            text = try! String(contentsOf: url)
-        }
+        .navigationTitle("Apps")
+        .navigationViewStyle(.columns)
     }
 }
 
